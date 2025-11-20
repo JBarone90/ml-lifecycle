@@ -1,0 +1,21 @@
+# Requirements for kaggle-heart-failure notebook
+# - Base packages used directly in the notebook
+# - Use this file for `pip install -r requirements.txt` or in Docker
+
+python-dotenv
+pandas
+numpy
+scikit-learn
+scipy
+matplotlib
+seaborn
+plotly
+joblib
+xgboost
+shap
+kaggle
+
+# Notes:
+# - For reproducible Docker builds pin exact versions (example below).
+# - To create a pinned file after testing in a virtualenv/container:
+#     pip freeze > requirements-pinned.txt
